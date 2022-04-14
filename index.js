@@ -16,6 +16,8 @@ app.use(
     origin: [
       "http://localhost:3000",
       "https://laughinghttp://reverent-pasteur-0f88be.netlify.app",
+      ,
+      "http://profit.pantsflow.com",
     ],
     credentials: true,
   })
