@@ -15,7 +15,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "http://reverent-pasteur-0f88be.netlify.app",
+      "https://reverent-pasteur-0f88be.netlify.app",
       ,
       "http://profit.pantsflow.com",
     ],
