@@ -6,6 +6,7 @@ const jwt = require("jsonwebtoken");
 router.post("/", async (req, res) => {
   try {
     const {
+      Name,
       Manufacturing,
       Inspection,
       Packaging,
@@ -41,6 +42,7 @@ router.post("/", async (req, res) => {
     } = req.body;
 
     const newUser = new User({
+      Name,
       Manufacturing,
       Inspection,
       Packaging,

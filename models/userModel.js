@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 
 const userSchema = new mongoose.Schema(
   {
+    Name: { type: String, required: true },
     Manufacturing: { type: String, required: true },
     Inspection: { type: String, required: true },
     Packaging: { type: String, required: true },
