@@ -125,6 +125,7 @@ router.post("/delete", async (req, res) => {
     const andiwant = await User.findById(thereare[index]._id);
     console.log(andiwant);
     andiwant.delete();
+    res.json({ ok: "ok" });
   } catch (err) {
     console.log(err);
     return res.json({ _id: "כן... לא........" });
