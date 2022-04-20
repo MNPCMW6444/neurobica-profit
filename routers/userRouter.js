@@ -118,4 +118,16 @@ router.get("/gets", async (req, res) => {
   }
 });
 
+router.post("/delete", async (req, res) => {
+  try {
+    const { index } = req.body;
+    const thereare = await User.find();
+    const andiwant = await User.findById([index]._id);
+    andiwant.delete();
+  } catch (err) {
+    console.log(err);
+    return res.json({ _id: "כן... לא........" });
+  }
+});
+
 module.exports = router;
