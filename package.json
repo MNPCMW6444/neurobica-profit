@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node index",
+    "start": " git add . & git commit -m 'asd' & git push heroku main",
     "dev": "nodemon index"
   },
   "dependencies": {
