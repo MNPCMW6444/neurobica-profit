@@ -19,7 +19,7 @@ router.post("/", async (req, res) => {
       Revenue,
       RefFee,
       FBAFee,
-      TotalOutPerUnit,d
+      TotalOutPerUnit,
       OneOrderTimeSAAS,
       TotalSAAS,
       LLC,
