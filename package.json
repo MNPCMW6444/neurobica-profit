@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": " git add . & git commit -m 'asd' & git push heroku main",
-    "dev": "nodemon index"
+    "start": "node index",
+    "dev": "git add . & git commit -m 'asd' & git push heroku main"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
